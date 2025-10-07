@@ -1,4 +1,4 @@
-# 🚀 Class 7 - Week 1 Homework — Custom Webserver on AWS EC2
+# 🚀 Week 1 Homework — Custom Webserver on AWS EC2
 
 [![Repo](https://img.shields.io/badge/Repo-tiqsclass6%2Fclass--7--homework-181717?logo=github)](https://github.com/tiqsclass6/class-7-homework)
 ![Cloud-AWS](https://img.shields.io/badge/Cloud-AWS-orange?logo=amazon-aws&logoColor=white)
