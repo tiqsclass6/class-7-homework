@@ -2,11 +2,11 @@
 
 [![Made with Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://www.markdownguide.org)
 [![Killercoda Course](https://img.shields.io/badge/Killercoda-Linux%20Fundamentals-blue)](https://killercoda.com/pawelpiwosz/course/linuxFundamentals)
-[![GitHub Repo](https://img.shields.io/badge/Repo-linux--killercoda-green)](https://github.com/tiqsclass6/linux-killercoda)
-![GitHub last commit](https://img.shields.io/github/last-commit/tiqsclass6/linux-killercoda)
-![GitHub repo size](https://img.shields.io/github/repo-size/tiqsclass6/linux-killercoda)
-![GitHub contributors](https://img.shields.io/github/contributors/tiqsclass6/linux-killercoda)
-![GitHub stars](https://img.shields.io/github/stars/tiqsclass6/linux-killercoda?style=social)
+[![GitHub Repo](https://img.shields.io/badge/Repo-class--7--homework-green)](https://github.com/tiqsclass6/class-7-homework)
+![GitHub last commit](https://img.shields.io/github/last-commit/tiqsclass6/class-7-homework)
+![GitHub repo size](https://img.shields.io/github/repo-size/tiqsclass6/class-7-homework)
+![GitHub contributors](https://img.shields.io/github/contributors/tiqsclass6/class-7-homework)
+![GitHub stars](https://img.shields.io/github/stars/tiqsclass6/class-7-homework?style=social)
 
 ---
 
@@ -17,7 +17,7 @@ The goal is to log into [Killercoda Linux Fundamentals](https://killercoda.com/p
 
 ### 🏆 Scoreboard
 
-![scoreboard.jpg](/scoreboard.jpg)
+![scoreboard.jpg](/Screenshots/scoreboard.jpg)
 
 ---
 
@@ -32,35 +32,37 @@ The goal is to log into [Killercoda Linux Fundamentals](https://killercoda.com/p
 ## 📂 Project Structure
 
 ```plaintext
-Week-3-Killercoda
+week-3-homework
 .
-├── Lesson1-q1q2.jpg
-├── Lesson1-q3q4.jpg
-├── Lesson1-q5.jpg
-├── Lesson1-q6q7.jpg
-├── Lesson1-q8q9.jpg
-├── Lesson2.jpg
-├── Lesson3-q1q5.jpg
-├── Lesson3-q6q8.jpg
-├── Lesson3-q9.jpg
-├── Lesson4.jpg
-├── Lesson5-q1q3.jpg
-├── Lesson5-q4.jpg
-├── Lesson5-q5.jpg
-├── Lesson6-q1.jpg
-├── Lesson6-q2.jpg
-├── Lesson6-q3.jpg
-├── Lesson7-pt1.jpg
-├── Lesson7-pt2.jpg
-├── Lesson7-pt3.jpg
-├── Lesson7-pt4.jpg
-├── Lesson7-pt5.jpg
-├── Lesson7-pt6.jpg
-├── Lesson8.jpg
-├── Lesson9.jpg
-├── Lesson10.jpg
-├── README.md
-└── scoreboard.jpg
+├── Screenshots
+│   ├── Lesson1-q1q2.jpg
+│   ├── Lesson1-q3q4.jpg
+│   ├── Lesson1-q5.jpg
+│   ├── Lesson1-q6q7.jpg
+│   ├── Lesson1-q8q9.jpg
+│   ├── Lesson2.jpg
+│   ├── Lesson3-q1q5.jpg
+│   ├── Lesson3-q6q8.jpg
+│   ├── Lesson3-q9.jpg
+│   ├── Lesson4.jpg
+│   ├── Lesson5-q1q3.jpg
+│   ├── Lesson5-q4.jpg
+│   ├── Lesson5-q5.jpg
+│   ├── Lesson6-q1.jpg
+│   ├── Lesson6-q2.jpg
+│   ├── Lesson6-q3.jpg
+│   ├── Lesson7-pt1.jpg
+│   ├── Lesson7-pt2.jpg
+│   ├── Lesson7-pt3.jpg
+│   ├── Lesson7-pt4.jpg
+│   ├── Lesson7-pt5.jpg
+│   ├── Lesson7-pt6.jpg
+│   ├── Lesson8.jpg
+│   ├── Lesson9.jpg
+│   ├── Lesson10.jpg
+│   └── scoreboard.jpg
+├── .gitignore
+└── README.md
 ```
 
 ---
@@ -69,58 +71,58 @@ Week-3-Killercoda
 
 ### Lesson 1
 
-![Lesson1-q1q2.jpg](/Lesson1-q1q2.jpg)  
-![Lesson1-q3q4.jpg](/Lesson1-q3q4.jpg)  
-![Lesson1-q5.jpg](/Lesson1-q5.jpg)  
-![Lesson1-q6q7.jpg](/Lesson1-q6q7.jpg)  
-![Lesson1-q8q9.jpg](/Lesson1-q8q9.jpg)  
+![Lesson1-q1q2.jpg](/Screenshots/Lesson1-q1q2.jpg)  
+![Lesson1-q3q4.jpg](/Screenshots/Lesson1-q3q4.jpg)  
+![Lesson1-q5.jpg](/Screenshots/Lesson1-q5.jpg)  
+![Lesson1-q6q7.jpg](/Screenshots/Lesson1-q6q7.jpg)  
+![Lesson1-q8q9.jpg](/Screenshots/Lesson1-q8q9.jpg)  
 
 ### Lesson 2
 
-![Lesson2.jpg](/Lesson2.jpg)
+![Lesson2.jpg](/Screenshots/Lesson2.jpg)
 
 ### Lesson 3
 
-![Lesson3-q1q5.jpg](/Lesson3-q1q5.jpg)  
-![Lesson3-q6q8.jpg](/Lesson3-q6q8.jpg)  
-![Lesson3-q9.jpg](/Lesson3-q9.jpg)  
+![Lesson3-q1q5.jpg](/Screenshots/Lesson3-q1q5.jpg)  
+![Lesson3-q6q8.jpg](/Screenshots/Lesson3-q6q8.jpg)  
+![Lesson3-q9.jpg](/Screenshots/Lesson3-q9.jpg)  
 
 ### Lesson 4
 
-![Lesson4.jpg](/Lesson4.jpg)
+![Lesson4.jpg](/Screenshots/Lesson4.jpg)
 
 ### Lesson 5
 
-![Lesson5-q1q3.jpg](/Lesson5-q1q3.jpg)  
-![Lesson5-q4.jpg](/Lesson5-q4.jpg)  
-![Lesson5-q5.jpg](/Lesson5-q5.jpg)  
+![Lesson5-q1q3.jpg](/Screenshots/Lesson5-q1q3.jpg)  
+![Lesson5-q4.jpg](/Screenshots/Lesson5-q4.jpg)  
+![Lesson5-q5.jpg](/Screenshots/Lesson5-q5.jpg)  
 
 ### Lesson 6
 
-![Lesson6-q1.jpg](/Lesson6-q1.jpg)  
-![Lesson6-q2.jpg](/Lesson6-q2.jpg)  
-![Lesson6-q3.jpg](/Lesson6-q3.jpg)  
+![Lesson6-q1.jpg](/Screenshots/Lesson6-q1.jpg)  
+![Lesson6-q2.jpg](/Screenshots/Lesson6-q2.jpg)  
+![Lesson6-q3.jpg](/Screenshots/Lesson6-q3.jpg)  
 
 ### Lesson 7
 
-![Lesson7-pt1.jpg](/Lesson7-pt1.jpg)  
-![Lesson7-pt2.jpg](/Lesson7-pt2.jpg)  
-![Lesson7-pt3.jpg](/Lesson7-pt3.jpg)  
-![Lesson7-pt4.jpg](/Lesson7-pt4.jpg)  
-![Lesson7-pt5.jpg](/Lesson7-pt5.jpg)  
-![Lesson7-pt6.jpg](/Lesson7-pt6.jpg)
+![Lesson7-pt1.jpg](/Screenshots/Lesson7-pt1.jpg)  
+![Lesson7-pt2.jpg](/Screenshots/Lesson7-pt2.jpg)  
+![Lesson7-pt3.jpg](/Screenshots/Lesson7-pt3.jpg)  
+![Lesson7-pt4.jpg](/Screenshots/Lesson7-pt4.jpg)  
+![Lesson7-pt5.jpg](/Screenshots/Lesson7-pt5.jpg)  
+![Lesson7-pt6.jpg](/Screenshots/Lesson7-pt6.jpg)
 
 ### Lesson 8
 
-![Lesson8.jpg](/Lesson8.jpg)
+![Lesson8.jpg](/Screenshots/Lesson8.jpg)
 
 ### Lesson 9
 
-![Lesson9.jpg](/Lesson9.jpg)
+![Lesson9.jpg](/Screenshots/Lesson9.jpg)
 
 ### Lesson 10
 
-![Lesson10.jpg](/Lesson10.jpg)
+![Lesson10.jpg](/Screenshots/Lesson10.jpg)
 
 ---
 
@@ -135,12 +137,14 @@ If you encounter issues while working on Killercoda labs:
 5. **GitHub Uploads** – Ensure you commit with:
 
    ```bash
+   git remote add origin https://github.com/tiqsclass6/class-7-homework.git
+   git branch -M week-3-homework
    git add .
-   git commit -m "Added screenshots"
-   git push -u origin main
+   git commit -m "initial commit"
+   git push -u origin week-3-homework
    ```
 
-   to keep the repo updated.
+   > to keep the repo updated.
 
 ---
 
