@@ -1,4 +1,4 @@
-# 🚀 Week 2 Homework — Custom Webserver on EC2 & Ping Google DNS
+# Week 2 Homework — Custom Webserver on EC2 & Ping Google DNS
 
 [![Repo](https://img.shields.io/badge/Repo-class--7--homework-181717?logo=github)](https://github.com/tiqsclass6/class-7-homework)
 ![Cloud-AWS](https://img.shields.io/badge/Cloud-AWS-orange?logo=amazon-aws&logoColor=white)
@@ -52,7 +52,7 @@ Follow each step carefully and you’ll have your own running webserver serving 
 |------|----------|------------|--------|-------------|
 | `HTTP` | TCP      | 80         | Anywhere (0.0.0.0/0) | `webserver` or `HTTP` |
 | `SSH`  | TCP      | 22         | Anywhere (0.0.0.0/0) | `SSH` |
-| `All ICMP` | TCP      | 80         | Anywhere (0.0.0.0/0) | `ICMP` |
+| `All ICMP - IPv4` | TCP      | All         | Anywhere (0.0.0.0/0) | `ICMP` |
 
 ![security-group-details-pt1](/Screenshots/security-group-details-pt1.jpg)
 
@@ -115,7 +115,7 @@ Click **Create security group**.
 2. Scroll to **User data (optional)**  
 3. Paste in your **custom script** (Apache + HTML)
 
-`week2.sh`:
+`class-7-week2-homework.sh`:
 
 ```bash
 #!/bin/bash
@@ -268,8 +268,8 @@ Click **Launch instance** on the right-hand side.
 
 ## 5️⃣ Access Your Webserver
 
-1. Open a new browser tab  
-2. Visit:  
+1. Open a **new browser tab**
+2. Visit:
 
    ```plaintext
    http://<your-public-dns>
@@ -277,7 +277,7 @@ Click **Launch instance** on the right-hand side.
 
 3. 🎉 **Class 7 - Week 2 Homework - WebServer**
 
-   ![aws-be-a-man-1.1.jpg](/Screenshots/be-a-man-1.1.jpg)
+   ![class-7-week2-homework.jpg](/Screenshots/class-7-week2-homework.jpg)
 
 ---
 
@@ -292,27 +292,25 @@ Sometimes you need to **ping the Internet** to verify Port 80 is open in your ne
     ![ec2-instance-console1](/Screenshots/ec2-instance-console1.jpg)
     ![ec2-instance-console2](/Screenshots/ec2-instance-console2.jpg)
 
-2. The Linux console will open. Type:  
+2. The **Linux** console will open. Type:  
 
    ```bash
-   ping 8.8.8.8
+   ping -c 15 8.8.8.8
    ```
 
-   ![sudo-vim-ec2-instance](/Screenshots/sudo-vim-ec2-instance.jpg)
+   ![ping-google-dns](/Screenshots/ping-google-dns.jpg)
 
-3. Press `CTRL + Z` to stop the ping  
-
-   ![be-a-man-1.2.jpg](/Screenshots/be-a-man-1.2.jpg)
+   > NOTE: The timer will stop automatically after 15 pings.
 
 ---
 
 ## 🛠️ Troubleshooting
 
-If your webserver doesn’t load:
+### ⚠️ If your webserver doesn’t load
 
 1. **Security Group Rules**  
-   - Inbound rules must allow HTTP (port 80) from `0.0.0.0/0`.  
-   - Ensure you attached the correct SG (`class-7-week2-homework`).  
+   - Inbound rules must allow **HTTP (port 80)** from `0.0.0.0/0`.  
+   - Ensure you attached the correct **Security Group** (`class-7-week2-homework`).  
 
 2. **Instance State**  
    - Check that the instance is running and has a Public IPv4.  
@@ -331,8 +329,8 @@ If your webserver doesn’t load:
    ```
 
 5. **Firewall/Browser**  
-   - Ensure nothing blocks port 80 locally.  
-   - Try both Public IPv4 and DNS.  
+   - Ensure nothing blocks **port 80** locally.  
+   - Try both **Public IPv4 and DNS.**  
 
 💡 If all else fails, terminate the instance and **relaunch** with these steps.
 
