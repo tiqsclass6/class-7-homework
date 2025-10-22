@@ -1,4 +1,4 @@
-# 🌍 Setting Up Terraform on Windows Using Chocolatey
+# Week 6 Homework - Chocolately, Terraform, VS Code Installation
 
 ![Terraform](https://img.shields.io/badge/Terraform-v1.9%2B-blueviolet?logo=terraform&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-blue?logo=powershell&logoColor=white)
