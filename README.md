@@ -1,4 +1,4 @@
-# Week 6 Homework - Chocolately, Terraform, VS Code Installation
+# Week 6 Homework - Chocolately/Terraform, VS Code Installation
 
 ![Terraform](https://img.shields.io/badge/Terraform-v1.9%2B-blueviolet?logo=terraform&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-blue?logo=powershell&logoColor=white)
@@ -31,6 +31,7 @@
 * 🔑 PowerShell and Git Bash (Running as Administrator)
 * 🌐 Internet access
 
+> [!TIP]
 > 🔸 Right-click PowerShell → **“Run as Administrator”** before starting.
 
 ---
@@ -119,6 +120,7 @@ choco upgrade vscode -y             # Upgrade VS Code
 terraform -version
 ```
 
+> [!CAUTION]
 > 🧩 If missing, reboot or confirm `C:\ProgramData\chocolatey\bin` in PATH.
 
 ---
@@ -236,6 +238,7 @@ terraform plan          # Plan Your Terraform Configuration
 terraform destroy       # Destroy Your Terraform Resources
 ```
 
+> [!TIP]
 > 💬 **Expert Users Only**: Add **S3 backend** then rerun `terraform init -upgrade`
 
 ---
@@ -290,9 +293,9 @@ terraform destroy       # Destroy Your Terraform Resources
 * 🔗 [Terraform CLI (GitHub)](https://github.com/hashicorp/terraform)
 * 📘 [HashiCorp Learn Portal](https://learn.hashicorp.com/terraform)
 * 💻 [Chocolatey Automation Scripts](https://github.com/rofoed01/scripts_chocolatey)
-* 📝 [Setup SOP (Google Doc)](https://docs.google.com/document/d/1EEzlOOEgU5ZjVcte9PB8CcQd2VuMfshuf7D-ZBlbd8I)
 
-> 💡 Access to supporting docs may require permission.
+> [!TIP]
+> Access to supporting docs may require permission.
 
 ---
 
