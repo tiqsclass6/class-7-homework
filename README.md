@@ -21,7 +21,8 @@ These topics are **CRITICAL** for upcoming labs — no excuses! Complete them be
 ## 🗂️ Project Structure  
 
 ```plaintext
-/
+week-9-homework
+.
 ├── .gitignore
 ├── section-8-quiz.jpg
 └── section-10-quiz.jpg
