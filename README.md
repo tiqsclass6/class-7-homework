@@ -286,6 +286,10 @@ terraform destroy       # Destroy Your Terraform Resources
 
    ![terraform-destroy.jpg](/Screenshots/terraform-destroy.jpg)
 
+5. **Udemy Section 8 Quiz:**
+
+   ![section-8-quiz.jpg](/section-8-quiz.jpg)
+
 ---
 
 ## 📚 References
