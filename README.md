@@ -26,11 +26,11 @@ week-4-homework/
 ├── Screenshots/
 │ ├── binary-game.jpg
 │ ├── ietf-logo.png
-│ ├── udemy-saa-section-27.jpg
 │ ├── vpc-network.jpg
 │ └── Week4-Network-Diagram.png
 │
 ├── README.md
+├── section-27-quiz.jpg
 ├── Week4-VPC-Network-Range.pdf
 └── Week4-VPC-Network-Range.xlsx
 ```
@@ -77,7 +77,7 @@ This structure supports public-facing resources (e.g., load balancers, bastion h
   ![vpc-network](/Screenshots/vpc-network.jpg)
   
 - ✅ **Completed Udemy SAA Quiz:**
-  ![udemy-saa-section-27.jpg](/Screenshots/udemy-saa-section-27.jpg)
+  ![udemy-saa-section-27.jpg](/section-27-quiz.jpg)
 
 - ✅ **Binary Game High Score:**
   ![binary-game](/Screenshots/binary-game.jpg)
