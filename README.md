@@ -1,11 +1,17 @@
 # Class 7 Homework Repository
 
-![AWS](https://img.shields.io/badge/Cloud-AWS-orange?logo=amazon-aws&logoColor=white)
-![EC2](https://img.shields.io/badge/Service-EC2-blue?logo=amazon-aws&logoColor=white)
-![Apache](https://img.shields.io/badge/WebServer-Apache-red?logo=apache&logoColor=white)
-![HTML](https://img.shields.io/badge/Frontend-HTML5-green?logo=html5&logoColor=white)
-![GitHub](https://img.shields.io/badge/Workflow-GitHub%20PRs-lightgrey?logo=github)
-![Status](https://img.shields.io/badge/Weeks-1--6-success?logo=github)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![EC2](https://img.shields.io/badge/Service-EC2-blue?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Apache](https://img.shields.io/badge/WebServer-Apache-red?style=for-the-badge&logo=apache&logoColor=white)
+![HTML5](https://img.shields.io/badge/Frontend-HTML5-green?style=for-the-badge&logo=html5&logoColor=white)
+![GitHub PRs](https://img.shields.io/badge/Workflow-GitHub%20PRs-lightgrey?style=for-the-badge&logo=github&logoColor=black)
+![Weeks 1–2](https://img.shields.io/badge/Weeks%201–2-AWS%20Fundamentals-blueviolet?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Week 3](https://img.shields.io/badge/Week%203-Linux%20Fundamentals-yellow?style=for-the-badge&logo=linux&logoColor=white)
+![Week 4](https://img.shields.io/badge/Week%204-VPC%20Architecture%20%7C%20Subnetting-green?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Week 6](https://img.shields.io/badge/Week%206-Terraform%20%7C%20IaC-orange?style=for-the-badge&logo=terraform&logoColor=white)
+![Week 9](https://img.shields.io/badge/Week%209-High%20Availability%20%7C%20Route53-blue?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Week 10](https://img.shields.io/badge/Week%2010-RDS%20%7C%20CloudFront%20%7C%20SQS-orange?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Week 11](https://img.shields.io/badge/Week%2011-S3%20Intro%20%7C%20Advanced%20S3%20%7C%20Security-green?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 This repository contains all homework deliverables for **Class 7**. Each week’s assignment lives in its own branch with specific tasks and expected outputs.
 
@@ -113,21 +119,138 @@ You’ll demonstrate proficiency by successfully applying and destroying Terrafo
 
 ---
 
+## 🌐 [Week 9 Homework — High Availability, Scalability & Route 53](https://github.com/tiqsclass6/class-7-homework/tree/week-9-homework)  
+
+### Task 9
+
+- Design a highly available architecture using **Auto Scaling Groups (ASG)** and **Elastic Load Balancers (ELB)**.  
+- Compare **Multi-AZ** vs **Multi-Region** deployment strategies.  
+- Explain **Route 53** fundamentals and implement routing policies (Failover, Latency, Geolocation, Weighted).  
+- Provide diagrams, explanations, and screenshots of your Route 53 configurations
+
+### Branch 9 Summary
+
+- High Availability & Scalability (ASG, Load Balancers)  
+- Multi-AZ vs Multi-Region  
+- Route 53 fundamentals  
+- Routing policies (Failover, Latency, Geolocation, Weighted)  
+
+---
+
+## 🌐 [Week 10 Homework — Databases, Global Acceleration & Decoupling](https://github.com/tiqsclass6/class-7-homework/tree/week-10-homework)  
+
+### Task 10
+
+Deep dive into AWS services that support global applications and decoupling:
+
+- Explore **RDS** and **Aurora** for managed relational databases.  
+- Understand **ElastiCache** for in-memory caching.  
+- Learn about **CloudFront** and **AWS Global Accelerator** for content delivery and global performance.  
+- Dive into **SQS**, **SNS**, **Kinesis**, and **Amazon MQ** for decoupling and messaging.  
+- Discuss global application design and performance optimization strategies.
+
+### Branch 10 Summary
+
+- RDS, Aurora, ElastiCache  
+- CloudFront & AWS Global Accelerator  
+- SQS, SNS, Kinesis, Amazon MQ  
+- Global application design & performance  
+
+---
+
+## 🌐 [Week 11 Homework — Solutions Architecture & S3 Deep Dive](https://github.com/tiqsclass6/class-7-homework/tree/week-11-homework)  
+
+### Task 11
+
+- Explore **S3 (Simple Storage Service)** in depth: features, use cases, and best practices.  
+- Understand **S3 storage classes** (Standard, Intelligent-Tiering, Glacier, etc.) and their use cases.  
+- Learn about **S3 replication**, **multi-part uploads**, and **transfer acceleration**.  
+- Dive into **S3 security**: Server-Side Encryption (SSE), IAM policies, bucket policies, and Block Public Access (BPA).  
+- Discuss solutions architecture patterns that leverage S3 for scalable, durable storage.
+
+### Branch 11 Summary  
+
+- Classic AWS architecture discussions  
+- Amazon S3 Introduction  
+- Advanced S3 (replication, multi-part uploads, TA)  
+- S3 Security (SSE, IAM, bucket policies, BPA)  
+
+---
+
+### 💡 General Tips
+
+- Always **run your terminal as Administrator** (Windows) or use `sudo` as needed (Linux/macOS).  
+- Keep your **AWS credentials private** — never commit `.aws/` directories, `.tfstate` files, or any sensitive configuration.  
+- Regularly run the following commands to maintain repo hygiene and catch issues early:
+
+  ```bash
+  git pull
+  terraform validate
+  terraform fmt -recursive
+  ```
+
+- Review Terraform and AWS CLI output carefully — error messages are often descriptive and point directly to the root cause.
+- When in doubt, re-run commands with verbose/debug flags (e.g., --debug) to gain additional insights.
+
+---
+
+## 📝 Overall Summary
+
+Throughout these weekly assignments, you’ve built a strong foundation in **Cloud Infrastructure**, **DevOps Automation**, and **Infrastructure as Code (IaC)**. Each branch progressively develops your technical depth and operational confidence.
+
+### 🌩️ AWS Fundamentals (Weeks 1–2)
+
+- Launch and secure **EC2 instances**, configure **security groups**, and deploy a custom **Apache webserver**.  
+- Build an understanding of basic networking, SSH connectivity, and live HTML configuration updates.
+
+### 🐧 Linux Operations (Week 3)
+
+- Strengthen command-line skills through **Killercoda Linux Fundamentals**.  
+- Master permissions, directory structures, process control, and essential Linux utilities that underpin DevOps workflows.
+
+### 🌐 Network Architecture & Design (Week 4)
+
+- Design scalable **VPC architectures** using CIDR subnetting across multiple AZs.  
+- Apply **RFC 1918** addressing and create subnet diagrams to visualize traffic flow and IP allocation.
+
+### ⚙️ Infrastructure as Code (Week 6)
+
+- Install, configure, and run **Terraform** for automated infrastructure provisioning.  
+- Practice core IaC workflows using `terraform init`, `plan`, `apply`, and `destroy`.  
+- Follow Git best practices, manage `.gitignore`, and produce shareable documentation for reproducible deployments.
+
+### 🚀 Advanced AWS Services (Weeks 9–11)
+
+- Implement **high availability** using Auto Scaling, Load Balancers, and AWS global routing with Route 53.  
+- Explore managed data services such as **RDS**, **Aurora**, and **ElastiCache**.  
+- Understand global delivery patterns using **CloudFront** and **AWS Global Accelerator**.  
+- Achieve S3 mastery, covering storage classes, lifecycle policies, replication, and end-to-end security.
+
+### 🤝 Collaboration & Source Control (All Weeks)
+
+- Improve GitHub workflows using branches, PRs, merging strategies, and version control hygiene.  
+- Maintain strong documentation habits, support peer reviews, and contribute to multi-user DevOps environments.
+
+---
+
 ## 🛠 Troubleshooting
 
-If you run into problems during these assignments, use the following guide to identify and resolve common issues across all branches (1–6).
+Use this guide to diagnose and resolve common issues encountered throughout the assignments. These tips apply across all branches and reflect real-world AWS and Linux troubleshooting workflows.
+
+---
 
 ### 🌐 EC2 and Network Connectivity
 
 - **EC2 Not Reachable**
-  - Verify your **security group inbound rules** allow the required ports (HTTP/80, SSH/22, and ICMP).  
-  - Confirm the instance is in a **running** state in the AWS Console.  
-  - Ensure the **VPC and subnet configurations** are correctly assigned.  
-  - Check **public IP association** and that you’re using the correct address.
+  - Verify **security group inbound rules** allow required ports (HTTP/80, SSH/22, ICMP).
+  - Ensure the instance is in a **running** state in AWS.
+  - Confirm the correct **VPC**, **subnet**, and **route table** associations.
+  - Check that the instance has a **public IP** (for public access) and that you are using the correct address.
 
 - **Cannot Ping or Connect to Instance**
-  - Confirm **ICMP** is enabled in your security group.  
-  - Verify your **network ACLs** and **VPC routes** allow outbound and inbound traffic.  
+  - Ensure **ICMP** is allowed in the security group.
+  - Verify **NACLs** allow both inbound and outbound traffic.
+  - Confirm the subnet route table points to an **Internet Gateway** (public) or **NAT Gateway** (private).
   - Use:
 
     ```bash
@@ -135,54 +258,63 @@ If you run into problems during these assignments, use the following guide to id
     traceroute <public-ip>
     ```
 
+---
+
 ### 🖥 Apache and Web Server Issues
 
 - **Apache Not Serving Content**
-  - Verify Apache is installed and running:
+  - Check that Apache is running:
 
     ```bash
     sudo systemctl status apache2
     ```
 
-  - Restart if needed:
+  - Restart the service if needed:
 
     ```bash
     sudo systemctl restart apache2
     ```
 
-  - Ensure your `index.html` file exists in `/var/www/html/`.  
-  - Check file ownership and permissions:
+  - Ensure `index.html` is located in:
+
+    ```plaintext
+    /var/www/html/
+    ```
+
+  - Validate permissions:
 
     ```bash
     sudo chown www-data:www-data /var/www/html/index.html
     sudo chmod 644 /var/www/html/index.html
     ```
 
-- **Page Displays Default Apache Test Page**
-  - Confirm you edited the correct `index.html` file.
-  - Clear your browser cache or force refresh (**Ctrl + F5**).
+- **Apache Test Page Still Appears**
+  - Confirm you're editing the correct `index.html`.
+  - Clear your browser cache or perform a hard refresh (**Ctrl + F5**).
+
+---
 
 ### 🔐 SSH and Login Issues
 
 - **SSH Connection Denied**
-  - Make sure you’re using the right **key pair** for the EC2 instance.
-  - Adjust key permissions:
+  - Ensure you're using the correct **key pair** for the EC2 instance.
+  - Set key permissions properly:
 
     ```bash
     chmod 400 <your-key-name>.pem
     ```
 
-  - Connect using:
+  - Connect to the instance:
 
     ```bash
     ssh -i <your-key-name>.pem ec2-user@<public-ip>
     ```
 
-  - If “Connection timed out,” check firewall or inbound rules for SSH (port 22).
+  - If you receive a timeout, verify inbound rules for **SSH (22)** and confirm the instance’s public IP.
 
-- **Permission Denied or Access Refused**
-  - Check that your user has administrative privileges.
-  - Reboot instance if SSH service is unresponsive:
+- **Permission Denied / Access Refused**
+  - Verify your IAM user or OS user has necessary privileges.
+  - Restart the SSH daemon if needed:
 
     ```bash
     sudo systemctl restart sshd
@@ -193,59 +325,66 @@ If you run into problems during these assignments, use the following guide to id
 ### 🐧 Linux Command-Line Issues (Week 3)
 
 - **Command Not Found**
-  - Ensure you are in the correct shell (e.g., Bash).
-  - Verify the binary exists in your `$PATH`.
+  - Check if you're using the correct shell (e.g., Bash).
+  - Verify the binary is in your `$PATH`.
+
 - **File Permission Errors**
-  - Use:
+  - Add execute permissions:
 
     ```bash
     chmod +x <filename>
     ```
 
-  - To check permissions:
+  - Check current permissions:
 
     ```bash
     ls -l
     ```
 
-- **Killercoda Environment Fails to Load**
-  - Refresh the browser and re-launch the scenario.
-  - Disable browser extensions that may block scripts.
+- **Killercoda Environment Issues**
+  - Refresh the browser.
+  - Disable ad blockers or extensions that may break the environment.
+  - Restart the scenario.
 
 ---
 
-### 🧩 Network Architecture and VPC (Week 4)
+### 🧩 Network Architecture & VPC (Week 4)
 
-- **Incorrect CIDR or Subnet Size**
-  - Validate your subnet math using an online CIDR calculator.
-  - Ensure subnet ranges don’t overlap.
+- **Incorrect CIDR or Overlapping Subnets**
+  - Validate using an online CIDR calculator.
+  - Ensure subnets are non-overlapping and appropriately sized.
+
 - **Private Subnet Access Issues**
-  - Confirm **NAT Gateway** or **Internet Gateway** configuration.
-  - For private instances, use a bastion host or session manager.
-- **VPC Diagram Missing or Not Displaying**
-  - Export your diagram in `.png` or `.pdf` and verify upload path in GitHub.
+  - Confirm **NAT Gateway** exists and is attached to the correct route table.
+  - Use a **bastion host** or **Session Manager** for private EC2 access.
+
+- **VPC Diagram Not Displaying**
+  - Export diagrams as `.png` or `.pdf`.
+  - Verify that file paths and filenames match your GitHub uploads.
 
 ---
 
 ### ⚙️ Terraform Setup and Execution (Week 6)
 
 - **Terraform Init Fails**
-  - Check your internet connection and provider credentials.
-  - Re-run initialization:
+  - Check your internet connection.
+  - Verify your AWS credentials.
+  - Reinitialize Terraform:
 
     ```bash
     terraform init -reconfigure
     ```
 
-- **Provider Plugin Error**
-  - Delete the `.terraform` folder and run:
+- **Provider Plugin Errors**
+  - Remove the provider cache:
 
     ```bash
+    rm -rf .terraform
     terraform init
     ```
 
-- **Terraform Apply or Plan Errors**
-  - Validate the syntax:
+- **Terraform Plan / Apply Errors**
+  - Validate configuration syntax:
 
     ```bash
     terraform validate
@@ -257,7 +396,7 @@ If you run into problems during these assignments, use the following guide to id
     terraform fmt -recursive
     ```
 
-  - Ensure your AWS credentials are configured properly:
+  - Confirm AWS credentials:
 
     ```bash
     aws configure
@@ -265,8 +404,8 @@ If you run into problems during these assignments, use the following guide to id
     ```
 
 - **Terraform Destroy Hangs**
-  - Verify resources are still active in AWS Console.
-  - Retry:
+  - Ensure resources still exist in AWS.
+  - Retry destroy:
 
     ```bash
     terraform destroy -auto-approve
@@ -277,7 +416,7 @@ If you run into problems during these assignments, use the following guide to id
 ### 🧠 Git and Version Control Issues
 
 - **Unstaged or Uncommitted Changes**
-  - Check current repo state:
+  - Check the current repo state:
 
     ```bash
     git status
@@ -290,7 +429,7 @@ If you run into problems during these assignments, use the following guide to id
     git status
     ```
 
-  - Edit and resolve manually, then:
+  - Open each conflicting file, resolve conflicts manually, then stage and commit:
 
     ```bash
     git add .
@@ -298,16 +437,16 @@ If you run into problems during these assignments, use the following guide to id
     git push -u origin <branch-name>
     ```
 
-- **Branch Errors**
-  - Confirm branch creation and checkout:
+- **Branch Issues or Wrong Branch Checked Out**
+  - Verify existing branches and switch or create one as needed:
 
     ```bash
     git branch
     git checkout -b week-6-homework
     ```
 
-- **Forgot to Add .gitignore**
-  - Create or update `.gitignore` file to exclude unnecessary Terraform state and log files:
+- **Missing or Incorrect `.gitignore`**
+  - Create or update `.gitignore` to properly exclude Terraform state files and sensitive artifacts:
 
     ```gitignore
     .terraform/
@@ -317,61 +456,46 @@ If you run into problems during these assignments, use the following guide to id
     *.tfvars
     ```
 
----
+  - After updating, confirm Git is no longer tracking ignored files:
 
-### 💡 General Tips
-
-- Always **run terminals as Administrator** (Windows) or with `sudo` (Linux/macOS).  
-- Keep your **AWS credentials private** and never commit `.aws/` directories or `.tfstate` files.  
-- Regularly run:
-
-  ```bash
-  git pull
-  terraform validate
-  terraform fmt -recursive
-
-- Review console and error outputs carefully—Terraform and AWS CLI messages are usually descriptive.
+    ```bash
+    git status
+    ```
 
 ---
 
-## 📝 Overall Summary
+## 🎯 Comprehensive Learning Outcomes (Weeks 1–11)
 
-Through these weekly assignments, you’ll build a strong foundation in **Cloud Infrastructure, DevOps automation, and Infrastructure as Code (IaC)** practices. Each branch progressively enhances your technical and operational skills:
+### Week 1–6: Foundational Cloud & DevOps Skills
 
-- **AWS Fundamentals (Weeks 1–2)**  
-  - Learn to launch and secure **EC2 instances**, configure **security groups**, and deploy a custom **Apache webserver**.  
-  - Understand basic networking, SSH connectivity, and real-time configuration via HTML updates.  
+Through Weeks **1–6**, you established a strong technical foundation across core cloud and DevOps skill sets:
 
-- **Linux Operations (Week 3)**  
-  - Gain command-line proficiency using **Killercoda Linux Fundamentals**.  
-  - Master file permissions, directory structures, process control, and system commands that form the backbone of DevOps workflows.  
+- Deploy and secure live infrastructure in **AWS**.
+- Configure, troubleshoot, and monitor **Linux-based servers**.
+- Design resilient **VPC and network architectures** aligned with cloud best practices.
+- Implement repeatable deployments using **Terraform** and the **AWS CLI**.
+- Collaborate effectively using **GitHub**, including branching, PR workflows, and version control hygiene.
 
-- **Network Architecture & Design (Week 4)**  
-  - Design scalable **VPC networks** using CIDR subnetting, private/public subnets, and multi-AZ topologies.  
-  - Apply **RFC 1918** addressing schemes and visualize network flow with diagrams and IP allocation plans.  
+👉 These early weeks build the essential groundwork for advanced roles in **Cloud Engineering**, **DevOps**, and **Infrastructure Automation** across AWS and multi-cloud environments.
 
-- **Infrastructure as Code (Week 6)**  
-  - Set up and initialize **Terraform** for automated infrastructure provisioning.  
-  - Execute workflows using key commands (`terraform init`, `plan`, `apply`, `destroy`) and validate results with **AWS CLI**.  
-  - Follow Git best practices (`.gitignore`, branching, commits) and share deployment-ready instructions with teammates for reproducibility.  
+### Week 9–11: Advanced AWS Architecture & Solutions
 
-- **Collaboration and Source Control (All Weeks)**  
-  - Strengthen **GitHub version control** techniques with branches, pull requests, merges, and troubleshooting workflows.  
-  - Practice clear documentation, peer review, and consistent repository hygiene for multi-user DevOps environments.  
+Building on that foundation, Weeks **9–11** elevate your capabilities into **AWS Associate-level architecture**, focusing on the highest-value, most heavily tested topics in the **SAA-C03** exam:
 
----
+- Implement **fault-tolerant** and **high-availability** designs using Auto Scaling, Load Balancers, and multi-region patterns.
+- Strengthen global performance and reliability through **Route 53**, **CloudFront**, and **AWS Global Accelerator**.
+- Master key data and messaging services including **RDS**, **Aurora**, **ElastiCache**, **SQS**, **SNS**, **Kinesis**, and **Amazon MQ**.
+- Achieve deep proficiency in **Amazon S3**: storage classes, lifecycle policies, replication, encryption, and access control.
+- Apply architectural patterns for decoupling, event-driven systems, caching tiers, and scalable application delivery.
 
-### 🚀 Outcome
+The repository now includes:
 
-By completing Weeks 1–6, you will have demonstrated the ability to:
+- 📸 **Detailed quiz reference images**  
+- 📘 **Enhanced documentation across all branches**  
+- 🔗 **Cross-referenced study workflows** for long-term retention and exam readiness  
 
-- Deploy and secure live infrastructure in AWS.  
-- Configure, troubleshoot, and monitor Linux-based servers.  
-- Design resilient network architectures aligned with cloud best practices.  
-- Implement repeatable deployments using Terraform and AWS CLI.  
-- Collaborate effectively using GitHub and team-based version control.  
-
-👉 Collectively, these assignments prepare you for advanced **Cloud Engineering**, **DevOps**, and **Infrastructure Automation** roles across AWS and multi-cloud environments.
+> [!NOTE]
+> Together, Weeks **1–11** provide a complete journey from AWS fundamentals → hands-on infrastructure → associate-level architectural design — preparing you for real-world cloud engineering and the AWS Solutions Architect Associate exam.
 
 ---
 
@@ -379,3 +503,5 @@ By completing Weeks 1–6, you will have demonstrated the ability to:
 
 - **Author:** T.I.Q.S.  
 - **Group Leader:** John Sweeney
+
+---
